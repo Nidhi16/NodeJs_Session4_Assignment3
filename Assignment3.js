@@ -18,6 +18,7 @@ function Rabbit(breed) {
 }
 
 // Inheriting Animal property using __proto__
+
 Rabbit.prototype.__proto__ = animal;
 
 // Creating rabbit object
